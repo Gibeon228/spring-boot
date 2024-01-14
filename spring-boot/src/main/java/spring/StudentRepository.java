@@ -21,12 +21,13 @@ public class StudentRepository {
     }
 
 
-    public void addStudent(Student student) {
+    public Student addStudent(Student student) {
         students.add(student);
+        return student;
     }
 
     public void deleteStudent(Long id) {
-        students.remove(getById(id));
+        students.removeIf(it -> it.getId().equals(id));
     }
     public List<Student> getAll() {
         return List.copyOf(students);

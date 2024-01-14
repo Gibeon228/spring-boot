@@ -38,22 +38,13 @@ public class StudentController {
         return repository.getSearchByName(name);
     }
 
-    @PostMapping("/student/student/{id}")
-    public Student createStudent(@PathVariable Long id, Student student) {
-        Student existsStudent = repository.getById(id);
-        if(existsStudent != null) {
-            throw new IllegalArgumentException();
-        }
-        repository.addStudent(student);
-        return student;
+    @PostMapping("/student")
+    public Student createStudent(@RequestBody Student student) {
+        return repository.addStudent(student);
     }
 
-    @DeleteMapping("/delStudent/{id}")
+    @DeleteMapping("/student/{id}")
     public void deleteStudent(@PathVariable Long id) {
-        Student existsStudent = repository.getById(id);
-        if(existsStudent == null) {
-            throw new IllegalArgumentException();
-        }
         repository.deleteStudent(id);
     }
 

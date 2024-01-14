@@ -9,8 +9,5 @@
         <module name="gb" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="gb" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>

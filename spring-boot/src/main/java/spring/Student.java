@@ -17,4 +17,10 @@ public class Student {
         this.name = name;
         this.groupName = groupName;
     }
+    @JsonCreator
+    public Student(Long id, String name, String groupName) {
+        this.id = id;
+        this.name = name;
+        this.groupName = groupName;
+    }
 }

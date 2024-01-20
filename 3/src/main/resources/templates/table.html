@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http//www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Book</th>
+        <th>Reader</th>
+        <th>issued_at</th>
+        <th>returned_at</th>
+    </tr>
+    <tr th:each="dto: ${list}">
+        <td th:text="${dto.getNameBook()}"></td>
+        <td th:text="${dto.getNameReader()}"></td>
+        <td th:text="${dto.getIssued_at()}"></td>
+        <td th:text="${dto.getReturned_at()}"></td>
+    </tr>
+</table>
+</body>
+</html>

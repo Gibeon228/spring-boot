@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6110c994-8f69-41bc-a248-d64685af5a51" name="Changes" comment="Service">
+      <change afterPath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/api/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3/src/main/resources/templates/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/DatabaseConnectionSetupEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/DatabaseConnector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/MyBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/MyFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/MyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/hw/Homework.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/repository/ReaderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/repository/ReaderRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2bCvw6uEdbHvzJdCyucsozh0IDc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/spring"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6110c994-8f69-41bc-a248-d64685af5a51" name="Changes" comment="" />
+      <created>1705732113282</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705732113282</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Service">
+      <option name="closed" value="true" />
+      <created>1705771837296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705771837296</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Service" />
+    <option name="LAST_COMMIT_MESSAGE" value="Service" />
+  </component>
+</project>

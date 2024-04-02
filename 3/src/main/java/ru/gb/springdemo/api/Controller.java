@@ -55,12 +55,12 @@ public class Controller {
         return "list";
     }
 
-    @GetMapping("ui/issue")
-    public String table(Model model) {
-        List<Dto> list = service.transformation();
-        model.addAttribute("list", list);
-        return "table";
-    }
+//    @GetMapping("ui/issue")
+//    public String table(Model model) {
+//        List<Dto> list = service.transformation();
+//        model.addAttribute("list", list);
+//        return "table";
+//    }
 
     @GetMapping("ui/reader/{id}")
     public String booksFindReader(@PathVariable long id, Model model) {

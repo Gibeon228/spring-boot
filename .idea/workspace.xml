@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6110c994-8f69-41bc-a248-d64685af5a51" name="Changes" comment="Service">
-      <change afterPath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/api/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/src/main/resources/templates/list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3/src/main/resources/templates/table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/DatabaseConnectionSetupEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/DatabaseConnector.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/MyBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/MyFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/MyService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/demo/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/hw/Homework.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/repository/ReaderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/3/src/main/java/ru/gb/springdemo/repository/ReaderRepository.java" afterDir="false" />
+    <list default="true" id="6110c994-8f69-41bc-a248-d64685af5a51" name="Changes" comment="ServiceTwo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +15,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -45,7 +34,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/spring"
+    "last_opened_file_path": "D:/spring/3"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -65,11 +54,20 @@
       <option name="project" value="LOCAL" />
       <updated>1705771837296</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ServiceTwo">
+      <option name="closed" value="true" />
+      <created>1705870759886</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705870759887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Service" />
-    <option name="LAST_COMMIT_MESSAGE" value="Service" />
+    <MESSAGE value="ServiceTwo" />
+    <option name="LAST_COMMIT_MESSAGE" value="ServiceTwo" />
   </component>
 </project>

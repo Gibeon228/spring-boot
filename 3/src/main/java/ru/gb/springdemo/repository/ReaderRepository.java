@@ -39,4 +39,8 @@ public class ReaderRepository {
   public void save(Reader reader) {
     readers.add(reader);
   }
+
+    public List<Reader> getAll() {
+      return readers;
+    }
 }

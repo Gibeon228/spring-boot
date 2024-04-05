@@ -9,7 +9,7 @@ import java.util.List;
 
 public interface IssueRepositoryJPA extends JpaRepository<BookJPA, Long> {
 
-    void closeIssue(IssueJPA issue);
+//    void closeIssue(IssueJPA issue);
 
     IssueJPA findIssueJPAById(Long id);
 

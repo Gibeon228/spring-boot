@@ -26,7 +26,7 @@ public class IssueJPA {
     private String name;
 
     @Column(name = "issued_at")
-    private LocalDateTime issue_id;
+    private LocalDateTime issue_at;
 
     @Column(name = "return_at")
     private LocalDateTime returned_at;

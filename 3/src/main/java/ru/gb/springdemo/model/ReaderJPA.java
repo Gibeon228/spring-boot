@@ -6,6 +6,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Data;
 
+import java.util.List;
+
 
 @Entity
 @Table(name = "readers")
@@ -18,6 +20,6 @@ public class ReaderJPA {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "issue")
-    List<IssueJPA> issueList;
+//    @Column(name = "issue")
+//    List<IssueJPA> issueList;
 }

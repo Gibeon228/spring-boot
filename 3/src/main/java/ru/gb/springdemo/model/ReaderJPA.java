@@ -20,6 +20,6 @@ public class ReaderJPA {
     @Column(name = "name")
     private String name;
 
-//    @Column(name = "issue")
+//    @Column(name = "issueList")
 //    List<IssueJPA> issueList;
 }

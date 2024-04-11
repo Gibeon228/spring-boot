@@ -2,6 +2,7 @@ package ru.gb.springdemo;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.RequiredArgsConstructor;
 import lombok.SneakyThrows;
 import org.springframework.boot.ConfigurableBootstrapContext;
 import org.springframework.boot.SpringApplication;
@@ -12,8 +13,12 @@ import org.springframework.data.web.config.SpringDataJacksonConfiguration;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.jdbc.core.StatementCallback;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
 import ru.gb.springdemo.model.BookJPA;
+import ru.gb.springdemo.model.User;
 import ru.gb.springdemo.repository.BookRepositoryJPA;
+import ru.gb.springdemo.repository.UserRepository;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -22,6 +27,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.List;
 import java.util.Optional;
+
 
 @SpringBootApplication
 public class Application {
@@ -58,21 +64,22 @@ public class Application {
 			spring-web.jar
 	 */
 
+    static long id = 1L;
+
     @SneakyThrows
     public static void main(String[] args) {
-        ConfigurableApplicationContext context = SpringApplication.run(Application.class, args);
-        BookRepositoryJPA bookRepositoryJPA = context.getBean(BookRepositoryJPA.class);
-
-        BookJPA bookJPA = new BookJPA();
-        bookJPA.setId(1L);
-        bookJPA.setName("Name1");
-        bookRepositoryJPA.save(bookJPA);
-
-        System.out.println(bookRepositoryJPA.findAllByName("Name1"));
-
-        Optional<BookJPA> foundBook = bookRepositoryJPA.findById(1L);
-        foundBook.ifPresent(it -> System.out.println(it));
-
-        bookRepositoryJPA.findById(2L).ifPresentOrElse(it -> System.out.println(it), () -> System.out.println("Не найден пользователь с идентификатором 2"));
+        UserRepository userRepository = SpringApplication.run(Application.class, args).getBean(UserRepository.class);
+        saveUser(userRepository, "user");
+        saveUser(userRepository, "adm");
     }
+
+    private static void saveUser(UserRepository repository, String login) {
+        User user = new User();
+        user.setId(id++);
+        user.setLogin(login);
+        user.setPassword(login);
+        user.setRole(login);
+        repository.save(user);
+    }
+
 }
